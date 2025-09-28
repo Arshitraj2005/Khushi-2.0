@@ -5,14 +5,14 @@ import os
 
 # Google Drive IDs
 video_drive_id = "119IZhrca0P5d1-x-NQWHlcy5KBLtxpuV"  # 30s video
-audio_drive_id = "1Qd16tHJ-Ka8ndUYjNQeWUno9TydJQ-UE"   # 1h30 audio
+audio_drive_id = "1X_hkJOC9CPK3cdG88u0AaIgEaOES5HjZ"   # 1h30 audio
 
 # Local file names
 video_file = "video_30p.mp4"
 audio_file = "audio.mp3"
 
 # YouTube Stream Key
-stream_key = "kmqx-xeh8-11ds-t258-a5sd"
+stream_key = "gs7k-jhh0-frfu-d21m-fszx"
 stream_url = f"rtmp://a.rtmp.youtube.com/live2/{stream_key}"
 
 def download_file(drive_id, output_file):
